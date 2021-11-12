@@ -1,0 +1,7 @@
+<div>
+    <div style="margin-top: 10px"></div>
+  <button *ngFor="let t of themeList" (click)="changeTheme(t)" class="mr10">{{t}}</button>
+  <app-demo [title]="title" age="2"></app-demo>
+  <span [title]="test"></span>
+  <span class="theme-color">{{text}}</span>
+</div>

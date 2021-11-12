@@ -1,0 +1,40 @@
+$font-family: Alibaba Sans;
+// 基础颜色
+$color-theme:#01152f;         // 主题色 左侧菜单
+$color-base: #1E2A78;         // 主题色 右边按钮默认背景 或则文字颜色
+$color-white: #ffffff;        // 白色
+$color-gray: #f8f8f8;         // 灰白色
+$color-disabled: #C0C4CC;     // 禁用色
+$color-light: #909399;        // 浅亮色
+$color-black-light: #5a5a5a;  // 浅黑色
+$color-black: #000;           // 黑色
+$color-success: #4cd964;      // 成功
+$color-warning: #f0ad4e;      // 警告
+$color-error: #dd524d;        // 错误
+
+/* 页面左右间距 */
+$spacing: 15px;
+
+/* 文字尺寸 */
+$font-xs: 12px;
+$font-sm: 14px;
+$font-base: 16px;
+$font-lg: 18px;
+
+/* 边框颜色 */
+$border-color-theme: $color-base;
+$border-color-light: $color-black-light;
+$border-radius: 2px;
+$border-radius-md: 4px;
+$border-radius-lg: 6px;
+$border-radius-circle: 50%;
+
+$box-shadow-color: rgba(0, 0, 0, 0.16);
+$box-shadow: 0px 4px 6px 0px $box-shadow-color;
+
+
+/* 透明度 */
+$opacity-disabled: 0.3; // 组件禁用态的透明度
+
+
+
